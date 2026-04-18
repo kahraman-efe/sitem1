@@ -6,19 +6,7 @@
   <title>Kahraman Efe</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-  <script>
-const btn = document.getElementById("themeBtn");
-
-btn.addEventListener("click", () => {
-  document.body.classList.toggle("light-mode");
-
-  if (document.body.classList.contains("light-mode")) {
-    btn.textContent = "☀️";
-  } else {
-    btn.textContent = "🌙";
-  }
-});
-</script>
+  
 <body>
 
   <header class="header">
@@ -36,6 +24,19 @@ btn.addEventListener("click", () => {
 
       <button class="menu-toggle" id="menu-toggle">☰</button> 
       <button id="theme-toggle" class="theme-toggle">🌙</button>
+       <script>
+    const btn = document.getElementById("themeBtn");
+
+    btn.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+
+      if (document.body.classList.contains("light-mode")) {
+        btn.textContent = "☀️";
+      } else {
+        btn.textContent = "🌙";
+      }
+    });
+  </script>
     </nav>
   </header>
 
