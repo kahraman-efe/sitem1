@@ -480,4 +480,24 @@ main {
   .skills-head {
     display: none;
   }
+  body.light-mode {
+  background: #ffffff;
+  color: #111;
+}
+
+body.light-mode .header {
+  background: rgba(255,255,255,0.85);
+}
+
+body.light-mode .nav-links a {
+  color: #111;
+}
+
+body.light-mode .hero {
+  background: #f5f7fb;
+}
+
+body.light-mode .section p {
+  color: #333;
+}
 }
