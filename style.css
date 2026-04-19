@@ -29,7 +29,7 @@ section[id] {
   scroll-margin-top: 100px;
 }
 
-/* HEADER */
+
 .header {
   position: fixed;
   top: 0;
@@ -82,12 +82,12 @@ section[id] {
   cursor: pointer;
 }
 
-/* MAIN */
+
 main {
   padding-top: 80px;
 }
 
-/* GENERAL */
+
 .section {
   padding: 100px 10%;
 }
@@ -103,7 +103,7 @@ main {
   color: #c7d2f0;
 }
 
-/* HERO */
+
 .hero {
   min-height: calc(100vh - 80px);
   display: flex;
@@ -166,7 +166,7 @@ main {
   flex-wrap: wrap;
 }
 
-/* BUTTONS */
+
 .btn {
   display: inline-block;
   padding: 12px 22px;
@@ -195,7 +195,7 @@ main {
   transform: translateY(-2px);
 }
 
-/* ABOUT + SKILLS */
+
 .about-skills {
   display: flex;
   flex-direction: column;
@@ -293,7 +293,7 @@ main {
   }
 }
 
-/* PROJECTS */
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -369,7 +369,7 @@ main {
   opacity: 0.8;
 }
 
-/* CERTIFICATIONS */
+
 .certifications {
   background: #0d1322;
 }
@@ -417,7 +417,7 @@ main {
   border-radius: 10px;
 }
 
-/* CONTACT */
+
 .contact {
   padding-bottom: 120px;
   text-align: center;
